@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "graned mug",
+      "category": "Gadgets",
+      "price": 49.99,
+      "stock": 12,
+      "rating": 4.2,
+      "active": true,
+      "image": "https://www.vecteezy.com/photo/69253559-white-container-in-brown-cardboard-box-sits-beneath-soft-shadows-against-a-tan-background",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    },
+    {
+      "id": 2,
+      "name": "graned paint",
+      "category": "Gadgets",
+      "price": 46.99,
+      "stock": 10,
+      "rating": 4.1,
+      "active": true,
+      "image": "https://www.vecteezy.com/photo/69253559-white-container-in-brown-cardboard-box-sits-beneath-soft-shadows-against-a-tan-background",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    },
+    {
+      "id": 3,
+      "name": "silver nife",
+      "category": "Toys",
+      "price": 55.99,
+      "stock": 8,
+      "rating": 4.5,
+      "active": true,
+      "image": "https://www.vecteezy.com/photo/69253559-white-container-in-brown-cardboard-box-sits-beneath-soft-shadows-against-a-tan-background",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    },
+    {
+      "id": 4,
+      "name": "silver cup",
+      "category": "Toys",
+      "price": 62.99,
+      "stock": 9,
+      "rating": 4.8,
+      "active": true,
+      "image": "https://www.vecteezy.com/photo/69253559-white-container-in-brown-cardboard-box-sits-beneath-soft-shadows-against-a-tan-background",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    },
+    {
+      "id": 5,
+      "name": "pipe roof",
+      "category": "Supplies",
+      "price": 32.99,
+      "stock": 15,
+      "rating": 4.0,
+      "active": true,
+      "image": "https://www.vecteezy.com/photo/69253559-white-container-in-brown-cardboard-box-sits-beneath-soft-shadows-against-a-tan-background",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    },
+    {
+      "id": 6,
+      "name": "roof sheet",
+      "category": "Supplies",
+      "price": 48.99,
+      "stock": 16,
+      "rating": 3.8,
+      "active": true,
+      "image": "https://www.vecteezy.com/photo/69253559-white-container-in-brown-cardboard-box-sits-beneath-soft-shadows-against-a-tan-background",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    }
+  ],
+  "orders": [
+    {
+      "id": 101,
+      "productId": 1,
+      "quantity": 3,
+      "total": 99.98,
+      "status": "pending",
+      "customer": "John Doe",
+      "date": "2025-11-10"
+    },
+    {
+      "id": 102,
+      "productId": 2,
+      "quantity": 1,
+      "total": 29.0,
+      "status": "shipped",
+      "customer": "Jane Smith",
+      "date": "2025-11-11"
+    },
+    {
+      "id": 103,
+      "productId": 3,
+      "quantity": 3,
+      "total": 56.99,
+      "status": "pending",
+      "customer": "matha noeil",
+      "date": "2025-11-12"
+    },
+    {
+      "id": 104,
+      "productId": 4,
+      "quantity": 2,
+      "total": 113.98,
+      "status": "pending",
+      "customer": "kim alonso",
+      "date": "2025-11-12"
+    }
+  ]
+}
+
