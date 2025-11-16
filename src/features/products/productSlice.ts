@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import axios from '../../api/axiosInstance';
 
-export type Product = {
+export interface Product {
     id: number;
     name: string;
     category: string;
@@ -19,6 +19,7 @@ type productsState = {
     status: "idle" | "loading" | "succeeded" | "failed";
     error: string | null;
     total: number;
+    selectedProduct: Product | null;
 };
 
 const initialState: productsState = {
@@ -26,6 +27,7 @@ const initialState: productsState = {
     status: "idle",
     error: null,
     total:0,
+    selectedProduct: null,
 };
 
 export const fetchProducts = createAsyncThunk(
@@ -79,6 +81,18 @@ state.error = action.error.message ?? "Failed to load products";
 .addCase(updateProduct.fulfilled, (state, action: PayloadAction<Product>)=>{
 const idx = state.list.findIndex((p) => p.id === action.payload.id);
 if(idx >= 0) state.list[idx] = action.payload;
+})
+.addCase(fetchProductById.pending, (state) => {
+    state.status = "loading";
+    state.selectedProduct = null;
+})
+.addCase(fetchProductById.fulfilled, (state, action)=>{
+state.status = "succeeded";
+state.selectedProduct = action.payload;
+})
+.addCase(fetchProductById.rejected, (state, action)=>{
+state.status = "failed";
+state.error = action.error.message ?? "Failed to load products";
 });
 },
 });

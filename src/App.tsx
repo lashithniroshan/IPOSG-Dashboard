@@ -4,6 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu'
 import './App.css'
 import ProductList from './features/products/ProductList'
+import ProductDetails from './features/products/ProductDetails'
 
 function App() {
 const [open, setOpen] = useState(true);
@@ -31,6 +32,7 @@ const [open, setOpen] = useState(true);
 <Box component="main" flexGrow={1} p={3} marginLeft={open ? "240px" : "0"} sx={{transition: "margin 0.2s"}}>
 <Routes>
   <Route path="/" element={<ProductList />} />
+  <Route path="/product/:id" element={<ProductDetails />} />
 </Routes>
 </Box>
     </Box>
