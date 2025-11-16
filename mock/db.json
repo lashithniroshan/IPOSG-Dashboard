@@ -73,7 +73,7 @@
       "productId": 1,
       "quantity": 3,
       "total": 99.98,
-      "status": "pending",
+      "status": "Pending",
       "customer": "John Doe",
       "date": "2025-11-10"
     },
@@ -82,7 +82,7 @@
       "productId": 2,
       "quantity": 1,
       "total": 29,
-      "status": "shipped",
+      "status": "Shipped",
       "customer": "Jane Smith",
       "date": "2025-11-11"
     },
@@ -91,7 +91,7 @@
       "productId": 3,
       "quantity": 3,
       "total": 56.99,
-      "status": "pending",
+      "status": "Pending",
       "customer": "matha noeil",
       "date": "2025-11-12"
     },
@@ -100,7 +100,7 @@
       "productId": 4,
       "quantity": 2,
       "total": 113.98,
-      "status": "pending",
+      "status": "Delivered",
       "customer": "kim alonso",
       "date": "2025-11-12"
     }

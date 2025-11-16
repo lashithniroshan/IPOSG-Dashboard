@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import './App.css'
 import ProductList from './features/products/ProductList'
 import ProductDetails from './features/products/ProductDetails'
+import OrderList from './features/orders/OrderList'
 
 function App() {
 const [open, setOpen] = useState(true);
@@ -26,6 +27,9 @@ const [open, setOpen] = useState(true);
   <ListItemButton component={Link} to="/" className='listitem'>
 <ListItemText primary="Products" />
   </ListItemButton>
+    <ListItemButton component={Link} to="/orders" className='listitem'>
+<ListItemText primary="Orders" />
+  </ListItemButton>
 </List>
 </Drawer>
 
@@ -33,6 +37,7 @@ const [open, setOpen] = useState(true);
 <Routes>
   <Route path="/" element={<ProductList />} />
   <Route path="/product/:id" element={<ProductDetails />} />
+  <Route path="/orders" element={<OrderList />} />
 </Routes>
 </Box>
     </Box>

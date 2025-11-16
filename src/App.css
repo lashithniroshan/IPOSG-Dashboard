@@ -21,6 +21,7 @@
   background: #1976d2 !important;
   color: #fff !important;
     padding: 1rem;
+    border-bottom: 1px solid #fff !important;
 }
 @keyframes logo-spin {
   from {
