@@ -7,8 +7,8 @@
       "price": 49.99,
       "stock": 14,
       "rating": 4,
-      "active": false,
-      "image":"https://loremflickr.com/600/600/product",
+      "active": true,
+      "image": "https://loremflickr.com/600/600/product",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
     },
     {
@@ -16,10 +16,10 @@
       "name": "Wood paint",
       "category": "Gadgets",
       "price": 46.99,
-      "stock": 10,
+      "stock": 7,
       "rating": 4,
       "active": true,
-      "image":"https://loremflickr.com/600/600/product",
+      "image": "https://loremflickr.com/600/600/product",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
     },
     {
@@ -30,7 +30,7 @@
       "stock": 8,
       "rating": 5,
       "active": true,
-      "image":"https://loremflickr.com/600/600/product",
+      "image": "https://loremflickr.com/600/600/product",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
     },
     {
@@ -41,7 +41,7 @@
       "stock": 9,
       "rating": 5,
       "active": true,
-      "image":"https://loremflickr.com/600/600/product",
+      "image": "https://loremflickr.com/600/600/product",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
     },
     {
@@ -52,7 +52,7 @@
       "stock": 15,
       "rating": 3,
       "active": true,
-      "image":"https://loremflickr.com/600/600/product",
+      "image": "https://loremflickr.com/600/600/product",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
     },
     {
@@ -63,7 +63,7 @@
       "stock": 16,
       "rating": 3,
       "active": true,
-     "image":"https://loremflickr.com/600/600/product",
+      "image": "https://loremflickr.com/600/600/product",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
     }
   ],

@@ -38,8 +38,8 @@ dispatch(fetchOrders());
             <Typography variant="h5" gutterBottom>
                 Orders
             </Typography>
-            <Paper sx={{p:2}}>
-               <div style={{height:560, width:"100%"}}>
+            <Paper sx={{p: 2, mb: 2}}>
+               <div style={{height:520, width:"100%"}}>
                 <DataGrid<Order>
                 rows={list}
                 columns={columns}

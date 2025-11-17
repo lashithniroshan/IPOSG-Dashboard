@@ -43,7 +43,7 @@ onCategory={(c) => {setCategory(c); setPage(1);}}
 onPriceRange={(r) => {setPriceRange(r); setPage(1)}}
 />
             </Paper>
-            <div style={{height:620, width:'100%'}}>
+            <div style={{height:520, width:'100%'}}>
                <DataGrid
                rows={list as Product[]}
                columns={columns}
