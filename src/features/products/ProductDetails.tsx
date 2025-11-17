@@ -7,7 +7,6 @@ import type { Product } from "./productSlice";
 import ProductCard from "../../components/ProductCard";
 import ConfirmationDialog from "../../components/ConfirmationDialog";
 
-
 const ProductDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const dispatch = useAppDispatch();
@@ -35,33 +34,32 @@ const ProductDetails: React.FC = () => {
 
   const handleSaveClick = () => {
     setConfirmOpen(true);
-  }
-const handleConfirmSave = async () => {
-  setConfirmOpen(false);
-  await dispatch(updateProduct({ id: local.id, changes: local })).unwrap();
-}
-
+  };
+  const handleConfirmSave = async () => {
+    setConfirmOpen(false);
+    await dispatch(updateProduct({ id: local.id, changes: local })).unwrap();
+  };
 
   return (
-    <Box sx={{
-        padding:"1rem"
-    }}> 
-    <ProductCard
-    product={local}
-    editable
-    onChange={(updated) => setLocal(updated)}
-    onSave={handleSaveClick}
-     />
-     <ConfirmationDialog
-     open={confirmOpen}
-     onClose={()=> setConfirmOpen(false)}
-     onConfirm={handleConfirmSave}
-     title="Save Product"
-     children="Are you sure you want to save thse changes?"
-     />
-     
+    <Box
+      sx={{
+        padding: "1rem",
+      }}
+    >
+      <ProductCard
+        product={local}
+        editable
+        onChange={(updated) => setLocal(updated)}
+        onSave={handleSaveClick}
+      />
+      <ConfirmationDialog
+        open={confirmOpen}
+        onClose={() => setConfirmOpen(false)}
+        onConfirm={handleConfirmSave}
+        title="Save Product"
+        children="Are you sure you want to save thse changes?"
+      />
     </Box>
-   
   );
 };
 export default ProductDetails;

@@ -25,7 +25,7 @@
     {
       "id": 3,
       "name": "silver Knife",
-      "category": "Toys",
+      "category": "Kitchen",
       "price": 55.99,
       "stock": 8,
       "rating": 5,
@@ -36,7 +36,7 @@
     {
       "id": 4,
       "name": "silver cup",
-      "category": "Toys",
+      "category": "Kitchen",
       "price": 62.99,
       "stock": 9,
       "rating": 5,
@@ -62,6 +62,28 @@
       "price": 48.99,
       "stock": 16,
       "rating": 3,
+      "active": true,
+      "image": "https://loremflickr.com/600/600/product",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    },
+     {
+      "id": 7,
+      "name": "Asphalt shingles",
+      "category": "Supplies",
+      "price": 78.99,
+      "stock": 96,
+      "rating": 5,
+      "active": true,
+      "image": "https://loremflickr.com/600/600/product",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+    },
+     {
+      "id": 8,
+      "name": "Glass Window",
+      "category": "Glass",
+      "price": 66.99,
+      "stock": 56,
+      "rating": 4,
       "active": true,
       "image": "https://loremflickr.com/600/600/product",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
@@ -103,6 +125,33 @@
       "status": "Delivered",
       "customer": "kim alonso",
       "date": "2025-11-12"
+    },
+     {
+      "id": 105,
+      "productId": 5,
+      "quantity": 3,
+      "total": 127.98,
+      "status": "Cancelled",
+      "customer": "sebastian vettel",
+      "date": "2025-11-13"
+    },
+     {
+      "id": 106,
+      "productId": 6,
+      "quantity": 15,
+      "total": 330.48,
+      "status": "Shipped",
+      "customer": "martin brone",
+      "date": "2025-11-13"
+    },
+      {
+      "id": 107,
+      "productId": 7,
+      "quantity": 12,
+      "total": 226.48,
+      "status": "Shipped",
+      "customer": "chales presly",
+      "date": "2025-11-13"
     }
   ]
 }

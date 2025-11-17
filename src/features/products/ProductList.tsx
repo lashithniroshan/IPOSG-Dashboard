@@ -25,7 +25,7 @@ const ProductList: React.FC = () => {
     const columns: GridColDef[] = [
         {field:"id", headerName:"ID", width:70 },
         {field:"name", headerName:"Name", width:250 },
-        {field:"category", headerName:"Category", width:70 },
+        {field:"category", headerName:"Category", width:100 },
         {field:"price", headerName:"Price", width:100, type:"number" },
         {field:"stock", headerName:"Stock", width:100,type:"number" },
         {field:"rating", headerName:"Rating", width:100, type:"number" },

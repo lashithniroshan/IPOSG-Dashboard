@@ -2,8 +2,8 @@ import React from "react";
 import { Chip } from "@mui/material";
 
 type Props = {
-    status:string;
-}
+  status: string;
+};
 
 const mapColor = (s: string) => {
   switch (s) {
@@ -13,7 +13,7 @@ const mapColor = (s: string) => {
       return "info";
     case "Delivered":
       return "success";
-    case "Cancelloed":
+    case "Cancelled":
       return "error";
     default:
       return "default";

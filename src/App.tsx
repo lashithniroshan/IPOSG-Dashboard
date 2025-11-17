@@ -55,16 +55,28 @@ export default function App(props: { window?: () => Window }) {
   const drawer = (
     <div>
 
-      <List>
+      <List sx={{p:0}}>
         <ListItem disablePadding>
-          <ListItemButton component={Link} to="/">
+          <ListItemButton component={Link} to="/" sx={{
+            backgroundColor: "#d2e1f0",
+            "&:hover": {
+      backgroundColor: "#1976d2", 
+      color: "#fff",            
+    },
+            }}>
             <ListItemIcon><DashboardIcon/></ListItemIcon>
             <ListItemText primary="Products" />
           </ListItemButton>
         </ListItem>
-
+ <Divider />
         <ListItem disablePadding>
-          <ListItemButton component={Link} to="/orders">
+          <ListItemButton component={Link} to="/orders" sx={{
+            backgroundColor: "#d2e1f0",
+            "&:hover": {
+      backgroundColor: "#1976d2", 
+      color: "#fff",            
+    },
+            }}>
             <ListItemIcon><ListAltIcon/></ListItemIcon>
             <ListItemText primary="Orders" />
           </ListItemButton>
